@@ -1,4 +1,4 @@
-package com.nmichail.daggerlearningmonolite.lesson1
+package com.nmichail.daggerlearningmonolite.lesson2
 
 class MyComponent {
 
@@ -14,8 +14,7 @@ class MyComponent {
 		return Computer(computerTower, monitor, mouse, keyboard)
 	}
 
-	 fun inject(activity: Activity) {
-		activity.computer = getComputer()
-		 activity.keyboard = Keyboard()
-	}
+	 //fun inject(activity: Activity) {
+	//	 activity.keyboard = Keyboard()
+	//}
 }
